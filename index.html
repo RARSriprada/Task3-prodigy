@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('C:/Users/Hp/OneDrive/Desktop/prodigy_3/image1.png') no-repeat center center fixed; /* Add your background image here */
+            background-size: cover; /* Ensure the background image covers the entire viewport */
+            margin: 20;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <table id="board">
+            <tr>
+                <td data-cell></td>
+                <td data-cell></td>
+                <td data-cell></td>
+            </tr>
+            <tr>
+                <td data-cell></td>
+                <td data-cell></td>
+                <td data-cell></td>
+            </tr>
+            <tr>
+                <td data-cell></td>
+                <td data-cell></td>
+                <td data-cell></td>
+            </tr>
+        </table>
+        <button id="restartButton" class="hidden">Restart Game</button>
+    </div>
+
+    <!-- Celebration Message Box -->
+    <div id="messageBox" class="message-box hidden">
+        <div id="winnerMessage" class="winner-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
